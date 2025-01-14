@@ -12,3 +12,9 @@ if st.button("Xác nhận"):
     st.write(f"Ngày tháng năm sinh:{birth}")
     st.write(f"Môn học yêu thích1:{fav_subject}")
     st.write(f"Sở thích:{hobby}")
+
+with st.expander("Nhấn vào để thêm thông tin"):
+    st.write(f"Họ và tên:{name}")
+    st.write(f"Ngày tháng năm sinh:{birth}")
+    st.write(f"Môn học yêu thích1:{fav_subject}")
+    st.write(f"Sở thích:{hobby}")
